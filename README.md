@@ -1,6 +1,9 @@
 # University Enrollment System
-
-**Course:** Advanced JavaScript @ EPITA
+```
+Semester: S4
+Course: Advanced JavaScript Programming
+Course code: PROG_AJS1
+```
 **Module:** Domain-Driven Design, Branded Types & Observer Pattern
 
 ---
