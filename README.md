@@ -14,11 +14,13 @@ Build a University Enrollment System from scratch, applying **Domain-Driven Desi
 
 The goal is not just to make the code work — but to model a real domain with proper invariants enforced at both compile-time and runtime.
 
+This project illustrates the use of all aforementioned concepts to construct and simulate a student enrollment process.
+
 ---
 
 ## Learning Objectives
 
-- Implement **Branded Types** from scratch (`type Brand<K, T> = K & { __brand: T }`)
+- Implement and use **Branded Types** from scratch (`type Brand<K, T> = K & { __brand: T }`)
 - Apply **Smart Constructors** and the "Parse, Don't Validate" principle
 - Design **Value Objects** and **Entities** following DDD
 - Build a typed **Observer Pattern** with domain events
@@ -26,10 +28,6 @@ The goal is not just to make the code work — but to model a real domain with p
 - Create a working **CLI** demonstrating all enrollment scenarios
 
 ---
-
-## Bonus Points: Shared and Collaborative Github Repository
-
-If you have a shared and collaborative repository, you get 2 bonus points. It needs to include regular commits and different branches for each student, or at least 2 pull requests.
 
 ## Domain Model
 
@@ -67,7 +65,7 @@ If you have a shared and collaborative repository, you get 2 bonus points. It ne
 
 - 6 branded types with smart constructors (return `Type | Error`)
 - 3 entity classes enforcing all invariants
-- Observer pattern (`subscribe`, `unsubscribe`, `emit`)
+- Observer pattern (`sub`, `unsub`, `dispatch`)
 - Business logic wiring all rules together
 - CLI demonstrating 5 scenarios (see below)
 
